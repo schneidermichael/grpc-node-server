@@ -1,0 +1,22 @@
+{
+  "name": "grpc-node-server",
+  "version": "1.0.0",
+  "description": "A gRPC Server written in Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Schneider",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.5.9",
+    "google-protobuf": "^3.20.0-rc.2",
+    "jsdom": "^19.0.0",
+    "node-fetch": "^2.6.7",
+    "protobufjs": "^6.11.2"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
